@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 3px;
+  }
+  .item {
+    border: 1.1px black solid;
+    border-radius: 2px;
+  }
+  h1 {
+    text-align: center;
+  }
+  .button {
+    display: inline-flex;
+    /* gap: 100px; */
+    height: 100px;
+    border: 3px solid black;
+    width: 100px;
+  }
+  #grey {
+    background-color: rgb(127, 124, 124);
+  }
+  #white {
+    background-color: white;
+  }
+  #blue {
+    background-color: blue;
+  }
+  #yellow {
+    background-color: yellow;
+  }
